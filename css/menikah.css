@@ -39,7 +39,7 @@ html {
 
 .hero {
     background-image: url(https://picsum.photos/id/25/1920/1080);
-    background: linear-gradient(rgba(153, 110, 109, 0.45), rgba(153, 110, 109, 0.45)), rgba(0, 0, 0, 0.35) url("engagement_Z1A9570.jpg") no-repeat;
+    background: linear-gradient(rgba(153, 110, 109, 0.30), rgba(153, 110, 109, 0.30)), rgba(0, 0, 0, 0.30) url("engagement_Z1A9570.jpg") no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: right 0px center;
@@ -67,7 +67,7 @@ html {
 
 .hero .tempatwaktu {
   padding-top: 35px;
-  font-size: 1.7rem;
+  font-size: 2rem;
   
 }
 
@@ -119,6 +119,10 @@ html {
 
 .space40px{
   height: 40px;
+}
+
+.space120px {
+    height: 120px;
 }
 
 .space24px{
@@ -311,19 +315,37 @@ html {
 .main-content .section-title {
   font-family: 'Cormorant Garamond', sans-serif;
   font-weight: 900;
-  color: #996E6D;
+  color: white; /**/#996E6D;
   font-size: 3rem;
   letter-spacing: 0px;
   padding-bottom: 60px;
 }
 
+.main-content .section-title-dark {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 900;
+    color: black
+    font-size: 3rem;
+    letter-spacing: 0px;
+    padding-bottom: 60px;
+}
+
 .nama-lengkap {
   font-family: 'Cormorant Garamond', sans-serif;
-  color: #996E6D;
-  font-size: 3.5rem;
+  color: black;
+  font-size: 3rem;
   letter-spacing: 0px;
-  padding-bottom: 6px;
+  padding-bottom: 50px;
   line-height: 3.7rem;
+}
+
+.nama-lengkap-2 {
+    font-family: 'Cormorant Garamond', sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    padding-bottom: 6px;
+    line-height: 3.7rem;
 }
 
 .ampersand {
@@ -349,7 +371,6 @@ vertical-align: middle;
   font-family: 'Cormorant Garamond', sans-serif;
   font-weight: 500;
   line-height: 1;
-  text-align: center;
 }
 
 .tempat {
@@ -357,6 +378,7 @@ vertical-align: middle;
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 5;
   margin-bottom: 50px;
+  color: black;
 }
 
 
@@ -460,7 +482,7 @@ body.preloader-site {
 
 .preloader-wrapper {
   height: 100%;
-  width: 100%;
+  width: 1000%;
   background: #D8A9A8;
   position: fixed;
   top: 0;
@@ -657,10 +679,10 @@ body.preloader-site {
 }
 
 .section-light {
-  background-image: url(../image/peonies.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: initial;
+    background: linear-gradient(rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.82)), rgba(255, 255, 255, 0.85) url("peonies.jpeg") no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
 }
 
 .instagram {
