@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond|Montserrat|Open+Sans");
+
+@font-face {
+    font-family: "feel-script";
+    src: url("feel-script.otf") format("opentype")
+}
+
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -16,7 +22,7 @@ html {
 }
 
 .header-wrapper {
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 
 .navbar-item {
@@ -42,7 +48,7 @@ html {
     background: linear-gradient(rgba(153, 110, 109, 0.30), rgba(153, 110, 109, 0.30)), rgba(0, 0, 0, 0.30) url("engagement_Z1A9570.jpg") no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: right 0px center;
     color: white;
     box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     font-family: 'Cormorant Garamond', sans-serif;
@@ -51,30 +57,32 @@ html {
 
 
 .hero .title {
-  font-family: 'Cormorant Garamond';
+  font-family: 'feel-script';
   font-weight: 500;
   transform: rotate(0deg);
-  font-size: 5rem;
+  font-size: 6.5rem;
+  letter-spacing: 0.5px;
   padding-bottom: 5px;
-  color: whitesmoke;
+  color: #F1EEEE;
 }
 
 .hero .subtitle {
   padding: 35px;
   color: whitesmoke;
   font-size: 1.3rem;
+  font-weight: 1000;
 }
 
 .hero .tempatwaktu {
   padding-top: 35px;
-  font-size: 2rem;
+  font-size: 2.3rem;
   
 }
 
 .hero .hero-foot {
-  height: 50px;
+  height: 0px;
   background: white;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
+/*  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);*/
 }
 
 @media (max-width: 599px) {
@@ -89,11 +97,11 @@ html {
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
-  line-height: 38px;
+  line-height: 50px;
   font-weight: 600;
-  text-transform: ;
+
   letter-spacing: 1px;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li {
@@ -139,17 +147,17 @@ html {
   font-family: 'Cormorant Garamond', sans-serif;
 }
 
-.main-content .section-dark {
+.main-content .schedule-section {
     background-image: url("orchard.jpeg");
     background: linear-gradient(rgba(153, 110, 109, 0.05), rgba(153, 110, 109, 0.30)), rgba(0, 0, 0, 0.30) url("orchard.jpeg") no-repeat;
-    background-attachment: fixed;
+    background-attachment: unset;
     background-size: cover;
-    background-position: center center;
+    background-position: left 0px center;
     color: white;
     box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     font-family: 'Cormorant Garamond', sans-serif;
     background-color: #68606D;
-    padding: 80px 40px;
+    padding: 90px 40px;
 }
 
 .main-content .section-darker {
@@ -157,7 +165,7 @@ html {
     background: linear-gradient(rgba(227, 219, 218, 0.80), rgba(255,255,255, 0.95)), rgba(255, 255, 255, 0.95) url("orchard.jpeg") no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: left 0px center;
     color: white;
 /*    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
     font-family: 'Cormorant Garamond', sans-serif;
@@ -165,23 +173,76 @@ html {
     padding: 80px 0px;
 }
 
-.main-content .section-dark.resume {
-  height: 400px;
-  padding-top: 60px;
-
+.main-content .section-hoodriver {
+    background-image: url("gorge_sunset.jpeg");
+    background: linear-gradient(rgba(227, 219, 218, 1), rgba(255,255,255, 1)), rgba(255, 255, 255, 1) url("gorge_sunset.jpeg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left 0px center;
+    color: white;
+/*        box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
+    font-family: 'Cormorant Garamond', sans-serif;
+    background-color: #68606D;
+    padding: 100px 0px;
 }
 
+.main-content .section-hotels1 {
+    background-image: url("gorge_sunset.jpeg");
+    background: linear-gradient(rgba(227, 219, 218, 1), rgba(255,255,255, 1)), rgba(255, 255, 255, 1) url("gorge_sunset.jpeg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left 0px center;
+    color: white;
+    /*        box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
+    font-family: 'Cormorant Garamond', sans-serif;
+    background-color: #68606D;
+    padding: 0px 0px;
+}
+
+.main-content .section-hotels {
+    background-image: url("gorge_sunset.jpeg");
+    background: linear-gradient(rgba(227, 219, 218, 1), rgba(255,255,255, 1)), rgba(255, 255, 255, 1) url("gorge_sunset.jpeg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left 0px center;
+    color: white;
+    /*        box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
+    font-family: 'Cormorant Garamond', sans-serif;
+    background-color: #68606D;
+    padding: 0px 0px;
+}
+
+.main-content .section-hoodriver-dark {
+    background-image: url("gorge_sunset.jpeg");
+    background: linear-gradient(rgba(227, 219, 218, 0.00), rgba(255,255,255, 0.0)), rgba(255, 255, 255, 0.0) url("gorge_sunset.jpeg") no-repeat;
+    background-attachment: unset;
+    background-size: cover;
+    background-position: left 0px center;
+    color: white;
+        box-shadow: inset 0 5px 6px rgba(0, 0, 0, 0.7), 0 10px 6px rgba(0, 0, 0, 0.9);
+    font-family: 'Cormorant Garamond', sans-serif;
+    background-color: #68606D;
+    padding: 80px 0px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+    .main-content .schedule-section.resume {
+        height: 400px;
+        padding-top: 60px;
+    }
+
 @media (max-width: 599px) {
-  .main-content .section-dark.resume {
+  .main-content .schedule-section.resume {
     padding-top: 75px;
   }
 }
 
-.main-content .section-dark.resume .title {
+.main-content .schedule-section.resume .title {
   padding: 20px;
 }
 
-.main-content .section-dark.resume button {
+.main-content .schedule-section.resume button {
   border: 2px solid #996E6D;
   background: white;
   color: #996E6D;
@@ -191,12 +252,12 @@ html {
   text-transform: uppercase;
 }
 
-.main-content .section-dark.resume .fa-download {
-  color: #996E6D;
+.main-content .schedule-section.resume .fa-download {
+    color: #996E6D;
 }
 
-.main-content .section-dark.my-work {
-  padding: 80px 40px;
+.main-content .schedule-section.my-work {
+    padding: 80px 40px;
 }
 
 .main-content .section-cashbac {
@@ -205,26 +266,26 @@ html {
 }
 
 @media (max-width: 599px) {
-  .main-content .section-dark.foto-foto {
-    padding: 75px 20px;
-  }
+    .main-content .schedule-section.foto-foto {
+        padding: 75px 20px;
+    }
 }
 
-.main-content .section-dark.foto-foto .foto-item {
-  margin-bottom: 1rem;
-  -webkit-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
-  border-radius: 5px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+.main-content .schedule-section.foto-foto .foto-item {
+    margin-bottom: 1rem;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
 
-.main-content .section-dark.my-work .work-item:hover {
-  -webkit-transform: scale(1.055) translateY(-2px);
-  transform: scale(1.055) translateY(-2px);
-  -webkit-box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
-  box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
+.main-content .schedule-section.my-work .work-item:hover {
+    -webkit-transform: scale(1.055) translateY(-2px);
+    transform: scale(1.055) translateY(-2px);
+    -webkit-box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
+    box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
 }
 
 .section-map {
@@ -232,7 +293,8 @@ html {
 }
 
 .main-content .section-light {
-  padding: 80px 40px;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 80px 40px;
 }
 
 .main-content .section-light.regular-section {
@@ -315,7 +377,7 @@ html {
 .main-content .section-title {
   font-family: 'Cormorant Garamond', sans-serif;
   font-weight: 900;
-  color: white; /**/#996E6D;
+  color: white;
   font-size: 3rem;
   letter-spacing: 0px;
   padding-bottom: 60px;
@@ -325,34 +387,69 @@ html {
 .main-content .section-title-dark {
     font-family: 'Cormorant Garamond', sans-serif;
     font-weight: 900;
-    color: black
+    color: black;
     font-size: 3rem;
     letter-spacing: 0px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
-.nama-lengkap {
-  font-family: 'Cormorant Garamond', sans-serif;
-  color: black;
-  font-size: 3rem;
-  letter-spacing: 0px;
-/*  padding-bottom: 50px;*/
-  line-height: 3.7rem;
+.main-content .section-title-white {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0px;
+    padding-bottom: 30px;
+}
+
+.main-content .ceremony-schedule {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 2.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0px;
+    padding-bottom: 0px;
+}
+
+
+.nama-feelscript {
+  font-family: 'feel-script', sans-serif;
+  color: black; /*#996E6D;*/
+  font-size: 4rem;
+  letter-spacing: 0.5px;
+  line-height: 5rem;
   padding-bottom: 30px;
+}
+
+.nama-feelscript-white {
+    font-family: 'feel-script', sans-serif;
+    color: white; /*#996E6D;*/
+    font-size: 4rem;
+    letter-spacing: 0.5px;
+    line-height: 4rem;
+    padding-bottom: 0px;
+}
+
+.orchard-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-family: 'Cormorant Garamond', sans-serif;
+    color: white;
+    font-weight: 500;
 }
 
 .nama-lengkap-2 {
     font-family: 'Cormorant Garamond', sans-serif;
     color: black;
     font-size: 1.5rem;
-    letter-spacing: 0px;
     padding-bottom: 6px;
-    line-height: 3.7rem;
+    line-height: 8rem;
 }
 
 
 .nama-lengkap-3 {
-    font-family: 'Cormorant Garamond', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 1.2rem;
     letter-spacing: 0px;
@@ -360,11 +457,39 @@ html {
     line-height: 2rem;
     text-align: center;
 }
+
+.nama-lengkap-black {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.1rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0px;
+    padding-bottom: 6px;
+    line-height: 2rem;
+    text-align: center;
+    padding: 0px;
+}
+
+.nama-lengkap-black-small {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-bottom: 6px;
+    line-height: 1.5rem;
+    padding: 0px;
+}
+
 .ampersand {
 font-size: 5rem;
-font-family: 'Cormorant Garamond', sans-serif;
-color: #996E6D;
-/*line-height: 10rem;*/
+font-family: 'feel-script', sans-serif;
+color: black; /*#996E6D;*/
 display: inline-block;
 vertical-align: middle;
 }
@@ -376,13 +501,28 @@ vertical-align: middle;
 .waktu {
   font-size: 1.4rem;
   font-family: 'Cormorant Garamond', sans-serif;
+  color: black;
 }
 
 .tanggal-angka {
   font-size: 2rem;
   font-family: 'Cormorant Garamond', sans-serif;
+  color: white;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.3;
+}
+
+.tanggal-hari {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-family: 'Cormorant Garamond', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.break {
+    display: block;
+    margin-bottom: 10em;
 }
 
 .tempat {
@@ -615,12 +755,12 @@ body.preloader-site {
 .dusty-pink-darkest {color: #996E6D}
 
 .tile {
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 
-.foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg");
+.gothic_basin {
+  background-image: linear-gradient(rgba(95, 2, 2, 0.0), rgba(48, 47, 47, 0.0)), url("../image/gabe-lindsey/gothic_basin.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -628,32 +768,32 @@ body.preloader-site {
 }
 
 
-.foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-cashbac.jpg");
+.interlaken {
+  background-image: linear-gradient(rgba(95, 2, 2, 0.05), rgba(48, 47, 47, 0.25)), url("../image/gabe-lindsey/interlaken.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
 
-.foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-selfie.jpg");
+.lighthouse {
+  background-image: linear-gradient(rgba(95, 2, 2, 0.05), rgba(48, 47, 47, 0.05)), url("../image/gabe-lindsey/lighthouse.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
 
-.foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-lamaran.jpg");
+.christmas2018 {
+  background-image: linear-gradient(rgba(95, 2, 2, 0.25), rgba(48, 47, 47, 0.25)), url("../image/gabe-lindsey/christmas2018.jpeg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
 
-.foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-red-car.jpg");
+.piggyback {
+  background-image: linear-gradient(rgba(95, 2, 2, 0.05), rgba(48, 47, 47, 0.05)), url("../image/gabe-lindsey/piggy_back.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -661,41 +801,86 @@ body.preloader-site {
 }
 
 
-.foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-engagement-ami.jpg");
+.san_juan {
+  background-image: linear-gradient(rgba(95, 2, 2, 0.05), rgba(48, 47, 47, 0.05)), url("../image/gabe-lindsey/san_juan.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
+}
+
+
+.canada {
+    background-image: linear-gradient(rgba(95, 2, 2, 0.05), rgba(48, 47, 47, 0.05)), url("../image/gabe-lindsey/canada.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 24rem;
+}
+
+.rainier {
+    background-image: linear-gradient(rgba(95, 2, 2, 0.05), rgba(48, 47, 47, 0.05)), url("../image/gabe-lindsey/rainier.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 24rem;
+}
+
+.snow {
+    background-image: linear-gradient(rgba(95, 2, 2, 0.05), rgba(48, 47, 47, 0.05)), url("../image/gabe-lindsey/campus_snow.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 24rem;
+}
+
+.new_years {
+    background-image: linear-gradient(rgba(95, 2, 2, 0.05), rgba(48, 47, 47, 0.05)), url("../image/gabe-lindsey/new_years.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 24rem;
 }
 
 
 
 .title-foto {
   font-size: 18pt;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   font-weight: 700;
   text-align: left;
   color: white;
 }
 
-
-.subtitle-foto {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 14pt;
-  font-weight: 600;
-  margin-top: 15px;
-  text-align: left;
-  color: white;
+.subtitle-photo-top {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14pt;
+    font-weight: 600;
+    margin-top: 5px;
+    text-align: left;
+    color: white;
 }
 
 .section-light {
-    background: linear-gradient(rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.82)), rgba(255, 255, 255, 0.85) url("peonies.jpeg") no-repeat;
     background-position: center;
     background-repeat: no-repeat;
     background-size: initial;
+    background-color: #EDE9E9;
 }
+
+
+.subtitle-photo-bottom {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14pt;
+  font-weight: 600;
+  margin-top: 250px;
+  text-align: left;
+  color: white;
+}
+
+
 
 .instagram {
   color: #996E6D;
@@ -722,6 +907,7 @@ div.sglspread {
     margin: 0 auto;
 }
 
+
 div.sglspread-long {
     width: auto;
     height: 800px;
@@ -738,8 +924,8 @@ div.sglspread-long {
 
 .left {
     float: left;
-    font-size: 1.4rem;
-    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
     font-size: 5;
     color: black;
     margin-bottom: 50px;
@@ -747,8 +933,17 @@ div.sglspread-long {
 
 .right {
     float: right;
-    font-size: 1.4rem;
-    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.center{
+    left: 50%;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
     font-size: 5;
     color: black;
     margin-bottom: 50px;
@@ -759,4 +954,52 @@ div.sglspread-long {
     text-align: left;
     margin: 0 auto;
     padding: 0em;
+}
+
+
+div.hotelimage {
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+}
+
+div.hoteldescription {
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-holder-left {
+    width: 33%;
+    position: fixed;
+    top: 30%;
+    left: 0%;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5;
+    color: black;
+}
+
+
+.text-holder-center {
+    width: 33%;
+    position: fixed;
+    top: 30%;
+    left: 33%;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5;
+    color: black;
+}
+
+
+.text-holder-right {
+    width: 33%;
+    position: fixed;
+    top: 30%;
+    left: 66%;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5;
+    color: black;
 }
