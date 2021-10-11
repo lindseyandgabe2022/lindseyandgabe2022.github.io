@@ -61,7 +61,7 @@ html {
   font-weight: 500;
   transform: rotate(0deg);
   font-size: 6.5rem;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   padding-bottom: 5px;
   color: #F1EEEE;
 }
@@ -1051,6 +1051,7 @@ div.hoteldescription {
 
 .container {
     position: relative;
+    padding-top: 10px;
 }
 
 .image_container {
