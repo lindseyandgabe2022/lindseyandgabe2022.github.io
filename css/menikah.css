@@ -417,7 +417,7 @@ html {
   font-family: 'feel-script', sans-serif;
   color: black; /*#996E6D;*/
   font-size: 4rem;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   line-height: 5rem;
   padding-bottom: 30px;
 }
@@ -426,7 +426,7 @@ html {
     font-family: 'feel-script', sans-serif;
     color: white; /*#996E6D;*/
     font-size: 4rem;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     line-height: 4rem;
     padding-bottom: 0px;
 }
