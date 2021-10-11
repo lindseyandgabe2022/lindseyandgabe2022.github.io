@@ -957,6 +957,16 @@ div.sglspread-long {
     padding: 0em;
 }
 
+.pg-txt-fmt {
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0em;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5;
+  color: black;}
+
 
 div.hotelimage {
     width: auto;
