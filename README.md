@@ -13,6 +13,7 @@
 
 
 # Fonts
+Thank you very much to https://github.com/daengdoang/daeng-sherly-menikah for providing the source code for this project!!
 - Cormorant Garamond (Google Font)
 - Feelscript
 - Open Sans (Google Font
