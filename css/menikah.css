@@ -442,6 +442,15 @@ html {
     font-weight: 500;
 }
 
+.cocktail-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-family: 'Cormorant Garamond', sans-serif;
+    color: black;
+    font-weight: 500;
+    display: inline;
+}
+
 .nama-lengkap-2 {
     font-family: 'Cormorant Garamond', sans-serif;
     color: black;
